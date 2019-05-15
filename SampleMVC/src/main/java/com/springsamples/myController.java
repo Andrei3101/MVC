@@ -11,7 +11,7 @@ public class myController {
     public ModelAndView firstView() {
         ModelAndView mav = new ModelAndView("hello");
         // must match the jsp page name which is being requested.
-        mav.addObject("welcome", "Andy Welcomes you to Spring Web MVC!");
+        mav.addObject("welcome", "Andy Welcomes you too , to the Spring Web MVC!");
         return mav;
     }
 }
